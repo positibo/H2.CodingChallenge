@@ -8,6 +8,9 @@ Schedule Coding Challenge
 3.) A task may depend on zero or more other tasks. If a task has dependencies, it can only start once all dependent tasks are completed.
 
 4.) Based on a given set of tasks (with durations and dependencies), your solution should generate a schedule by assigning Start and End Dates for every task.
+
 5.) A console app implementation is acceptable.
+
 6.) Your solution should be pushed to GitHub.
+
 7.) Please include Unit Tests in your submission.
