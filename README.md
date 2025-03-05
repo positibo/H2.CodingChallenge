@@ -15,11 +15,14 @@ Schedule Coding Challenge
 
 7.) Please include Unit Tests in your submission.
 
-H2.Exam 
+# H2.Exam 
+
 A console application that executes the project plan tasks.
 
-H2.Scheduler
+# H2.Scheduler
+
 A class library that calculate the calendar schedules for project plans.
 
-H2.UnitTests
+# H2.UnitTests
+
 A unit tests to check the implementation if correct.
