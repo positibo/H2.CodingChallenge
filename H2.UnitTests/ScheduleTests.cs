@@ -8,7 +8,7 @@ namespace H2.UnitTests
         public void PlanTasksWithDependencies()
         {
             // Arrange
-            var task1 = new PlanTask("Task 1", 6);
+            var task1 = new PlanTask("Task 1", 5);
             var task2 = new PlanTask("Task 2", 3);
             task2.AddDependency(task1);
 
@@ -28,7 +28,7 @@ namespace H2.UnitTests
         public void PlanTasksNoDependencies()
         {
             // Arrange
-            var task1 = new PlanTask("Task 1", 6);
+            var task1 = new PlanTask("Task 1", 5);
             var task2 = new PlanTask("Task 2", 3);
 
             var tasks = new List<PlanTask>() { task1, task2 };

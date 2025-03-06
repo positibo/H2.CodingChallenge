@@ -33,4 +33,13 @@
             }
         }
     }
+
+    // Notes:
+    // Each task has a duration
+    // A task also depend on other tasks. An task 1 must finish, before the start of task 2.
+    // StartDate - The date which the task will start.
+    // EndDate - The date which the task end
+    // Input Data - List of task (name, duration, and the list of dependencies)
+    // Output - We need to have all tasks with the start and end date.
+    
 }
